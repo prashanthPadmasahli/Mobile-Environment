@@ -1,0 +1,24 @@
+//
+//  Mobile-Environment-PROD.xcconfig
+//  Mobile-Environment
+//
+//  Created by mac on 06/02/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+APP_BUNDLE_NAME = MY-Tourism PROD
+
+APP_BUNDLE_ID = com.apple.ist.tourism
+//PRODUCT_BUNDLE_IDENTIFIER = com.apple.ist.tourism
+
+APP_DISPLAY_NAME = My_Tourism
+
+APP_VERSION = 3.2.0
+
+APP_IDMS_ID = 1234
+
+// Month.year.build
+APP_BUILD_NUMBER = 01.2025.2
+
+APP_ICON = AppIcon

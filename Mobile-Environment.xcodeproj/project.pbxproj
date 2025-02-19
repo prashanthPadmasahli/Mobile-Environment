@@ -11,14 +11,29 @@
 		047CF2132D548407008A6ACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CF2122D548407008A6ACB /* ContentView.swift */; };
 		047CF2152D548409008A6ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047CF2142D548409008A6ACB /* Assets.xcassets */; };
 		047CF2182D548409008A6ACB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047CF2172D548409008A6ACB /* Preview Assets.xcassets */; };
+		047CF2222D548599008A6ACB /* Mobile-Environment-PROD.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 047CF2212D54858C008A6ACB /* Mobile-Environment-PROD.xcconfig */; };
+		047CF2242D5485E0008A6ACB /* Mobile-Environment-DEV.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 047CF2232D5485E0008A6ACB /* Mobile-Environment-DEV.xcconfig */; };
+		047CF22C2D54C1A3008A6ACB /* Mobile-Environment-UAT.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 047CF2252D548811008A6ACB /* Mobile-Environment-UAT.xcconfig */; };
+		047CF22F2D65B108008A6ACB /* ConfigurationReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CF22E2D65B107008A6ACB /* ConfigurationReader.swift */; };
+		047CF2312D65B545008A6ACB /* TourismConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CF2302D65B545008A6ACB /* TourismConfiguration.swift */; };
+		047CF2332D65B582008A6ACB /* ConfigurationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CF2322D65B582008A6ACB /* ConfigurationProvider.swift */; };
+		047CF2352D65B5C4008A6ACB /* ConfigurationScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047CF2342D65B5C4008A6ACB /* ConfigurationScheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		047CF20D2D548407008A6ACB /* Mobile-Environment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-Environment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047CF20D2D548407008A6ACB /* MY-Tourism DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MY-Tourism DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		047CF2102D548407008A6ACB /* Mobile_EnvironmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_EnvironmentApp.swift; sourceTree = "<group>"; };
 		047CF2122D548407008A6ACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		047CF2142D548409008A6ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047CF2172D548409008A6ACB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		047CF2212D54858C008A6ACB /* Mobile-Environment-PROD.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mobile-Environment-PROD.xcconfig"; sourceTree = "<group>"; };
+		047CF2232D5485E0008A6ACB /* Mobile-Environment-DEV.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mobile-Environment-DEV.xcconfig"; sourceTree = "<group>"; };
+		047CF2252D548811008A6ACB /* Mobile-Environment-UAT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mobile-Environment-UAT.xcconfig"; sourceTree = "<group>"; };
+		047CF22B2D54B561008A6ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		047CF22E2D65B107008A6ACB /* ConfigurationReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationReader.swift; sourceTree = "<group>"; };
+		047CF2302D65B545008A6ACB /* TourismConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourismConfiguration.swift; sourceTree = "<group>"; };
+		047CF2322D65B582008A6ACB /* ConfigurationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationProvider.swift; sourceTree = "<group>"; };
+		047CF2342D65B5C4008A6ACB /* ConfigurationScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationScheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +58,7 @@
 		047CF20E2D548407008A6ACB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				047CF20D2D548407008A6ACB /* Mobile-Environment.app */,
+				047CF20D2D548407008A6ACB /* MY-Tourism DEV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +66,12 @@
 		047CF20F2D548407008A6ACB /* Mobile-Environment */ = {
 			isa = PBXGroup;
 			children = (
+				047CF22B2D54B561008A6ACB /* Info.plist */,
 				047CF2102D548407008A6ACB /* Mobile_EnvironmentApp.swift */,
 				047CF2122D548407008A6ACB /* ContentView.swift */,
+				047CF2302D65B545008A6ACB /* TourismConfiguration.swift */,
+				047CF22D2D65B0E0008A6ACB /* SPM */,
+				047CF21E2D5484F7008A6ACB /* Configurations */,
 				047CF2142D548409008A6ACB /* Assets.xcassets */,
 				047CF2162D548409008A6ACB /* Preview Content */,
 			);
@@ -65,6 +84,26 @@
 				047CF2172D548409008A6ACB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		047CF21E2D5484F7008A6ACB /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				047CF2212D54858C008A6ACB /* Mobile-Environment-PROD.xcconfig */,
+				047CF2232D5485E0008A6ACB /* Mobile-Environment-DEV.xcconfig */,
+				047CF2252D548811008A6ACB /* Mobile-Environment-UAT.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		047CF22D2D65B0E0008A6ACB /* SPM */ = {
+			isa = PBXGroup;
+			children = (
+				047CF22E2D65B107008A6ACB /* ConfigurationReader.swift */,
+				047CF2322D65B582008A6ACB /* ConfigurationProvider.swift */,
+				047CF2342D65B5C4008A6ACB /* ConfigurationScheme.swift */,
+			);
+			path = SPM;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +123,7 @@
 			);
 			name = "Mobile-Environment";
 			productName = "Mobile-Environment";
-			productReference = 047CF20D2D548407008A6ACB /* Mobile-Environment.app */;
+			productReference = 047CF20D2D548407008A6ACB /* MY-Tourism DEV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +164,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047CF22C2D54C1A3008A6ACB /* Mobile-Environment-UAT.xcconfig in Resources */,
+				047CF2242D5485E0008A6ACB /* Mobile-Environment-DEV.xcconfig in Resources */,
 				047CF2182D548409008A6ACB /* Preview Assets.xcassets in Resources */,
+				047CF2222D548599008A6ACB /* Mobile-Environment-PROD.xcconfig in Resources */,
 				047CF2152D548409008A6ACB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047CF2332D65B582008A6ACB /* ConfigurationProvider.swift in Sources */,
+				047CF2312D65B545008A6ACB /* TourismConfiguration.swift in Sources */,
 				047CF2132D548407008A6ACB /* ContentView.swift in Sources */,
+				047CF2352D65B5C4008A6ACB /* ConfigurationScheme.swift in Sources */,
+				047CF22F2D65B108008A6ACB /* ConfigurationReader.swift in Sources */,
 				047CF2112D548407008A6ACB /* Mobile_EnvironmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +193,7 @@
 /* Begin XCBuildConfiguration section */
 		047CF2192D548409008A6ACB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047CF2232D5485E0008A6ACB /* Mobile-Environment-DEV.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -210,6 +257,7 @@
 		};
 		047CF21A2D548409008A6ACB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047CF2212D54858C008A6ACB /* Mobile-Environment-PROD.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -259,6 +307,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "PROD $(inherited)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -267,13 +316,16 @@
 		047CF21C2D548409008A6ACB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON)";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = "$(APP_BUILD_NUMBER)";
 				DEVELOPMENT_ASSET_PATHS = "\"Mobile-Environment/Preview Content\"";
+				DEVELOPMENT_TEAM = XK2693A9GS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobile-Environment/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,9 +335,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "abc.Mobile-Environment";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = "$(APP_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,13 +347,15 @@
 		047CF21D2D548409008A6ACB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON)";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = "$(APP_BUILD_NUMBER)";
 				DEVELOPMENT_ASSET_PATHS = "\"Mobile-Environment/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobile-Environment/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,14 +365,109 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "abc.Mobile-Environment";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = "$(APP_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		047CF2262D54881B008A6ACB /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047CF2252D548811008A6ACB /* Mobile-Environment-UAT.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "UAT $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = UAT;
+		};
+		047CF2272D54881B008A6ACB /* UAT */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APP_ICON)";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = "$(APP_BUILD_NUMBER)";
+				DEVELOPMENT_ASSET_PATHS = "\"Mobile-Environment/Preview Content\"";
+				DEVELOPMENT_TEAM = XK2693A9GS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mobile-Environment/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = "$(APP_VERSION)";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(APP_BUNDLE_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UAT;
 		};
 /* End XCBuildConfiguration section */
 
@@ -327,6 +476,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				047CF2192D548409008A6ACB /* Debug */,
+				047CF2262D54881B008A6ACB /* UAT */,
 				047CF21A2D548409008A6ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -336,6 +486,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				047CF21C2D548409008A6ACB /* Debug */,
+				047CF2272D54881B008A6ACB /* UAT */,
 				047CF21D2D548409008A6ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

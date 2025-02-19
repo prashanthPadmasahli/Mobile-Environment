@@ -15,7 +15,17 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
-        .padding()
+        .onAppear {
+            print(Bundle.main.object(forInfoDictionaryKey: "appVersion"))
+            print(Bundle.main.infoDictionary?["appBuildNumber"])
+            #if DEBUG
+            print("Current environment is DEV")
+            #elseif PROD
+            print("Current environment is PROD")
+            #elseif UAT
+            print("Current environment is UAT")
+            #endif
+        }
     }
 }
 
